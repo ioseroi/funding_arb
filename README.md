@@ -1,6 +1,6 @@
 ## Funding Monitor API
 
-A NestJS service that continuously collects **funding rates** from **MEXC** and **Aster**, stores them in **PostgreSQL**, and exposes HTTP endpoints (for example `/arbitrage`) for funding arbitrage analysis.
+A NestJS service that continuously collects **funding rates** from **MEXC** and **Aster**, stores them in **PostgreSQL**, and exposes HTTP endpoint `/arbitrage` for funding arbitrage analysis.
 
 ---
 ## Environment variables
