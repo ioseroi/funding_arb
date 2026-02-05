@@ -144,7 +144,6 @@ export class ArbitrageService {
         const arbs: ArbRow[] = [];
 
         for (const [canonical, group] of byCanonical.entries()) {
-            // Choose comparable snapshot across exchanges (same fundingTimeMs if possible)
             const snapshot = pickComparableSnapshot(group);
             if (snapshot.length < 2) continue;
 
