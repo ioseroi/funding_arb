@@ -9,11 +9,11 @@ Create a `.env` file in the project root:
 
 ```env
 # Database
-DB_HOST=
-DB_USER=
-DB_PASSWORD=
-DB_NAME=
-DB_PORT=
+DB_HOST=localhost
+DB_USER=root
+DB_PASSWORD=strongpassword
+DB_NAME=funding
+DB_PORT=5432
 
 # TypeORM
 DB_SYNC=true
